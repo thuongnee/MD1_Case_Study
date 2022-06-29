@@ -1,0 +1,75 @@
+
+
+#game {
+    position: absolute;
+    margin-left: 320px;
+    margin-bottom: 180px;
+    width:700px;
+    height:600px;
+    background: url("https://thethaodonga.com/wp-content/uploads/2022/03/hinh-anh-bong-chuyen-dep-7.png") no-repeat;
+    box-sizing: border-box;
+}
+
+#tutorial{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 620px;
+    font-size: 25px;
+    color: red;
+    background: chartreuse;
+    border: 3px dashed aqua;
+    border-radius: 10px;
+    display: block;
+}
+
+#start{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 620px;
+    font-size: 25px;
+    color: red;
+    background: chartreuse;
+    border: 3px dashed aqua;
+    border-radius: 10px;
+    display: block;
+}
+#win{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 620px;
+    font-size: 25px;
+    color: red;
+    background: chartreuse;
+    border: 3px dashed aqua;
+    border-radius: 10px;
+    display: none;
+}
+
+#score{
+    position: absolute;
+    margin-left: 330px;
+    margin-bottom: 700px;
+    background:red;
+    color: aqua;
+    display: none;
+
+}
+#over{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 620px;
+    font-size: 25px;
+    color: #294dc4;
+    background: red;
+    border: 3px dashed aqua;
+    border-radius: 10px;
+    display: none;
+}
+#canvas1 {
+    border: 5px solid blue;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: url("https://p4.wallpaperbetter.com/wallpaper/14/797/258/mountains-landscapes-flowers-futuristic-crash-ponds-spaceships-digital-art-science-fiction-artwork-nature-flowers-hd-art-wallpaper-preview.jpg") no-repeat;
+    background-size: 700px 600px;
+    display: none;
+}
