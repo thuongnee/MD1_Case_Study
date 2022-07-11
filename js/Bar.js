@@ -5,7 +5,7 @@ class Bar {
         this.width = width;
         this.height = height;
         this.color = color;
-        this.speed = 30;
+        this.speed = 50;
         this.img=''
         this.paper = document.getElementById("canvas1")
         this.pen = this.paper.getContext("2d")

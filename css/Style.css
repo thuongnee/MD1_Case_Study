@@ -1,5 +1,3 @@
-
-
 #game {
     position: absolute;
     margin-left: 320px;
@@ -8,18 +6,6 @@
     height:600px;
     background: url("https://thethaodonga.com/wp-content/uploads/2022/03/hinh-anh-bong-chuyen-dep-7.png") no-repeat;
     box-sizing: border-box;
-}
-
-#tutorial{
-    position: absolute;
-    margin-top: 330px;
-    margin-left: 620px;
-    font-size: 25px;
-    color: red;
-    background: chartreuse;
-    border: 3px dashed aqua;
-    border-radius: 10px;
-    display: block;
 }
 
 #start{

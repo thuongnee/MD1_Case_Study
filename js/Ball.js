@@ -4,8 +4,8 @@ class Ball {
         this.y = y;
         this.r = r;
         this.color = color;
-        this.speedX =2;
-        this.speedY = 1;
+        this.speedX = 2;
+        this.speedY = 2;
         this.paper = document.getElementById("canvas1")
         this.pen = this.paper.getContext("2d")
     }
@@ -35,8 +35,6 @@ class Ball {
         //neu cham vien duoi cung gameover
         if (this.y + this.r >= this.paper.height) {
             gameOver=false;
-            audio_nen.pause();
-            au_thua.play();
             document.getElementById("over").style.display="block";
         } else {
             //vien phai

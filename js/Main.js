@@ -97,11 +97,6 @@ function start() {
 
 function Play() {
 
-
-
-    audio_nen.play();
-
-
     function playGame() {
         clearCanvas();
 
@@ -123,8 +118,6 @@ function Play() {
 }
 
 
-let audio_nen = new Audio('audio/nhacnen1.mp3');
-let au_thua=new Audio("audio/NhacThua.mp3")
 
 
 //click gameOver
